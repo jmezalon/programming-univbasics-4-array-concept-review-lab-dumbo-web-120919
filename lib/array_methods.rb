@@ -5,7 +5,7 @@ def find_element_index(array, value_to_find)
     if array[counter] == value_to_find
       return counter
     else
-      puts nil
+      return nil
     end
     counter+= 1
   end
